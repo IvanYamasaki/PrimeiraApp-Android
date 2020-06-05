@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PrimeiraApp</string>
+    <string name="Pesq">Digitar o local desejado</string>
+    <string name="Pesquisar">PESQUISAR</string>
+    <string name="Telefonar">TELEFONAR</string>
+    <string name="Email">EMAIL</string>
+    <string name="EndEmail">Endereço de Email</string>
+    <string name="AssEmail">Assunto Email</string>
+    <string name="TxtEmail">Texto Email</string>
+
+</resources>
