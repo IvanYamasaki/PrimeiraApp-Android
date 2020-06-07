@@ -7,5 +7,12 @@
     <string name="EndEmail">Endereço de Email</string>
     <string name="AssEmail">Assunto Email</string>
     <string name="TxtEmail">Texto Email</string>
-
+    <string name="btnCamera">Câmera</string>
+    <string name="btnGaleria">Selecionar Foto da Galeria</string>
+    <string name="btnFoto">Fotografar e Guardar Foto</string>
+    <string name="btnTelefone">Telefone</string>
+    <string name="btnEmail">Email</string>
+    <string name="btnMapa">Mapa</string>
+    <string name="btnVisualizar">Visualizar</string>
+    <string name="ivImagem">Imagem</string>
 </resources>

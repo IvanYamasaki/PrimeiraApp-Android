@@ -9,50 +9,55 @@
     <Button
         android:id="@+id/btnTel"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="147dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="11dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
         android:onClick="fazerChamada"
-        android:text="Telefone"
-        app:layout_constraintBottom_toTopOf="@+id/btnEmail"
+        android:text="@string/btnTelefone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnEmail"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginLeft="18dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
         android:onClick="enviarEmail"
-        android:text="Email"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:text="@string/btnEmail"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTel" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginLeft="18dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginBottom="416dp"
+        android:layout_height="wrap_content"
         android:onClick="verMapa"
-        android:text="Mapa"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/btnMapa"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnEmail" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:onClick="abrirCamera"
+        android:text="@string/btnCamera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/btnGaleria"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="abrirGaleria"
+        android:text="@string/btnGaleria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCamera" />
 </androidx.constraintlayout.widget.ConstraintLayout>
