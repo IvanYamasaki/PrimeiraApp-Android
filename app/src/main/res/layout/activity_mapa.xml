@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Backcolor"
     tools:context=".MapaActivity">
 
     <Button
@@ -13,6 +14,8 @@
         android:layout_marginStart="41dp"
         android:layout_marginLeft="41dp"
         android:layout_marginBottom="342dp"
+        android:background="@color/ButtonColor"
+        android:fontFamily="sans-serif-black"
         android:onClick="verMapa"
         android:text="@string/Pesquisar"
         android:textSize="20sp"
@@ -43,10 +46,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
+        android:autofillHints=""
         android:ems="10"
-        android:inputType="textPersonName"
+        android:hint="@string/Pesq"
+        android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/btnPesq"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvInstr1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

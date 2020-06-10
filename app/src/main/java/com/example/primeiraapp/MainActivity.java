@@ -2,14 +2,11 @@ package com.example.primeiraapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.SearchManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -4,33 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Backcolor"
     tools:context=".GaleriaActivity">
 
     <LinearLayout
-    android:id="@+id/lnGaleria"
-    android:layout_width="348dp"
-    android:layout_height="667dp"
-    android:orientation="vertical"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.529"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.191"
-    >
+        android:id="@+id/lnGaleria"
+        android:layout_width="416dp"
+        android:layout_height="728dp"
+        android:background="@color/Backcolor"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/btnGaleria"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="113dp"
+            android:background="@color/ButtonColor"
+            android:fontFamily="sans-serif-black"
             android:onClick="visualizarGaleria"
-            android:text="@string/btnGaleria" />
+            android:text="@string/btnGaleria"
+            android:textSize="18sp" />
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:contentDescription="@string/ivImagem"
             tools:srcCompat="@tools:sample/avatars" />
+
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

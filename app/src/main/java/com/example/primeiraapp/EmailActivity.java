@@ -24,7 +24,7 @@ public class EmailActivity extends AppCompatActivity {
 
         ptEmail = findViewById(R.id.ptEmail);
         ptAssEmail = findViewById(R.id.ptAssEmail);
-        ptTxtEmail = findViewById(R.id.ptTxtEmail);
+        ptTxtEmail = findViewById(R.id.ptTxtEm);
     }
     public void enviarEmail(View view) throws UnsupportedEncodingException {
 

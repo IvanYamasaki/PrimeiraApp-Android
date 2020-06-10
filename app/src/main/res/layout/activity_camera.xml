@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Backcolor"
     tools:context=".CameraActivity">
 
     <LinearLayout
@@ -11,15 +12,23 @@
         android:layout_width="409dp"
         android:layout_height="500dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintBottom_toTopOf="@+id/btnCapturar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/btnCapturar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="capturarImagem"
-            android:text="@string/btnFoto" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCapturar"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:background="@color/ButtonColor"
+        android:fontFamily="sans-serif-black"
+        android:onClick="capturarImagem"
+        android:text="@string/btnFoto"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

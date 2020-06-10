@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Backcolor"
     tools:context=".TelefoneActivity">
 
     <EditText
@@ -12,7 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="134dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:hint="@string/NumTel"
+        android:importantForAutofill="no"
+        android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,6 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="53dp"
+        android:background="@color/ButtonColor"
+        android:fontFamily="sans-serif-black"
         android:onClick="fazerChamada"
         android:text="@string/Telefonar"
         app:layout_constraintEnd_toEndOf="parent"
